@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Dictates the background color for the entire page. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styles the header with Horiseon's logo on the top left of the page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,6 +25,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 
 header section {
     padding-top: 15px;
@@ -50,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* .hero is responsible for the large image portraying the Horiseon team in a meeting. */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +64,7 @@ p {
     
 }
 
+/* Allows for whatever element this class is attached on to flow to the left, or right. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,14 +75,14 @@ p {
     margin-left: 25px;
 }
 
-/* Changed .content into main. This controls the main section of the page. */
+/* Changed .content into main since the <div> was replaced with a <main> tag instead. No need for a class. */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Changed .benefits into aside. */
+/* Changed .benefits into aside since the <div> was taken out and replaced with an <aside> tag.  */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -89,7 +94,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* Changed .benefit-lead/brand/cost and combined them into .beneifts, allowing us to use a single class for three sections */
+/* Changed .benefit-lead/brand/cost and combined them into .beneifts, allowing us to use a single class for three sections. */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,6 +111,7 @@ aside {
     max-width: 150px;
 }
 
+/* Created .media-management to substitute the use of three different classes using the same CSS elements. Replaced online-reputation-management, social-media-marketing, and search-engine-optimization. */
 .media-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,6 +130,7 @@ aside {
     font-size: 36px;
 }
 
+/* Responsible for the style of Horiseon's footer. */
 footer {
     padding: 30px;
     clear: both;
